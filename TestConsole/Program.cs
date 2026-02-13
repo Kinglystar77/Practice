@@ -39,11 +39,8 @@ public static class Test
             }
 
         }
+        Console.WriteLine(string.Join(',',Arr));
 
-        foreach (var item in Arr)
-        {
-            Console.WriteLine(item);
-        }
     }
     internal static void SortingCharArray(Char[] Arr)
     {
